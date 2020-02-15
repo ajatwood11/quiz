@@ -1,0 +1,6 @@
+<h1>What do you need from the store?</h1>
+<%= simple_form_for @item do |f| %>
+  <%= f.input :title %>
+  <%= f.input :quantity %>
+  <%= f.submit 'Add to list', class: 'btn btn-primary' %>
+  <% end %>
